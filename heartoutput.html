@@ -1,0 +1,143 @@
+<html>
+    <head>
+        <style type="text/css">
+<!--
+.style1 {color: #FFFFFF}
+.style2 {
+	color: #FF3333;
+	font-weight: bold;
+}
+.square-box {    
+    width: 600px; /* Adjust the width as needed */
+    height:500px; /* The height is set to be the same as the width for a square box */
+    background-color: #f5d38bd2; /* Set the background color as desired */
+    margin-top: 10%; /* Center the box horizontally with some top margin */
+    margin-bottom: 30%;
+ 
+    padding: 20px; /* Add padding inside the box */
+    box-sizing: content-box; /* Include padding and border in the box's total width and height */
+    outline: 5px solid rgb(233, 58, 58);
+    border-radius: 80px;
+}
+-->
+        </style>
+<body align="center" bgcolor="#FFFFFF">
+		<form >
+            <br>
+            <br>
+            <br>
+            <h2 align="center" class="style1">MACHINE LEARNING PREDICTION PAGE</h2>
+          <div align="center">
+              <table width="831" height="362" border="5" bordercolor="#FF0000" bgcolor="#FFFFCC">
+                <tr>
+                  <td><div align="center">
+                    <table width="434" border="0">
+                      <tr>
+                        <td width="390"><div align="center"><strong>HEALTH PARAMETERS </strong></div></td>
+                        <td width="16"><div align="center"><strong>NORMAL </strong></div></td>
+                        <td width="8"><div align="center"><strong>ABNORMAL</strong></div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">CP LEVEL </div></td>
+                        <td><div align="center">1</div></td>
+                        <td><div align="center">3</div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">TRESTBPS</div></td>
+                        <td><div align="center">130</div></td>
+                        <td><div align="center">180</div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">CHOLESTEROL</div></td>
+                        <td><div align="center">170</div></td>
+                        <td><div align="center">200</div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">FASTING BLOOD SUGAR </div></td>
+                        <td><div align="center">70</div></td>
+                        <td><div align="center">100</div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">REST ECG </div></td>
+                        <td><div align="center">0</div></td>
+                        <td><div align="center">1</div></td>
+                      </tr>
+                    </table>
+                    <p>patients health parameters </p>
+                    <table width="588" border="0">
+                      <tr>
+                        <td><div align="center">Age</div></td>
+                        <td><div align="center">Gender</div></td>
+                        <td><div align="center">Cp</div></td>
+                        <td><div align="center">Rbp</div></td>
+                        <td><div align="center">Cholesterol</div></td>
+                        <td><div align="center">Fbs</div></td>
+                        <td><div align="center">Rest ECG </div></td>
+                      </tr>                     
+						
+    					<tr> 
+        					<td><div align="center">{{ glucose }} </div></td> 
+							<td><div align="center">{{ bp }} </div></td> 
+							<td><div align="center">{{ skin }} </div></td> 
+							<td><div align="center">{{  insulin}} </div></td>
+        					<td><div align="center">{{  bmi}} </div></td>  
+							<td><div align="center">{{ dia }} </div></td>
+							<td><div align="center">{{ age }} </div></td>
+    					</tr>
+                    </table>
+                    <p>&nbsp;</p>
+                    <table align="center" cellpadding=10px" >
+                      <tr>
+                        <td>PREDICTED OUTPUT</td>
+                        <td>{{ OUTPUT }}</td>
+                      </tr>
+                      <br>
+                      <br>
+                    </table>
+                    
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                  </div></td>
+                </tr>
+              </table>
+              <p>&nbsp;</p>
+              <div class="square-box" >
+                <h2 align="center">REMEDY FOR HEART DISEASE</h2>
+                <h3 align="left-corner">Patients have to take foods like </h3>
+                <p>
+                <ul>
+                  <li>Take Salmon and tuna to reduce blood pressure</li>
+                  <li>Take olive oil,avocados,walnuts,almonds and oranges to reduce your cholesterol</li>
+                  <li>Take cherries to protect blood vessels</li>
+                  <li>Take leafy green Vegetables </li>
+                </ul>
+                </p>
+                <h3 align="left-corner">Patients have to avoid foods like</h3>
+                <p>
+                <ul>
+                  <li>Meats</li>
+                  <li>French fries and other fried foods</li>
+                  <li>Full-fat dairy products</li>
+                  <li>Baked goods like cookies,cakes and muffins</li>
+                </ul>
+                </p>
+                <h2>Lifestyle and home remedies</h2>
+                <p>
+                <ul>
+                  <li>Don't smoke</li>
+                  <li>Eat healthy foods</li>
+                  <li>Get a cholesterol test</li>
+                  <li>Maintain a healthy weight</li>
+                  <li>Manage diabetes and stress</li>
+                  <li>Exercise</li>
+                </ul>
+                </p>
+              </div>
+              <p><br>
+                <br>
+                  </p>
+          </div>
+		</form>
+</body>
+    </head>
+</html>
